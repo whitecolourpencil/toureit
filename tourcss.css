@@ -1,0 +1,179 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* for the symbols that have html linked */
+a{
+  color: inherit;
+}
+
+
+.first{
+  background-color: #ff414d;
+}
+
+img,button{
+  margin: 10px;
+}
+
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.nav-item{
+  padding: 18px
+}
+
+.phone{
+  transform: rotate(25deg);
+  width:220px;
+  position: absolute;
+  right:50%;
+  top:50px
+
+}
+.container-fluid{
+  padding:8%;
+  padding-top: 2%
+
+
+}
+
+.container{
+  margin-top: 10%;
+
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (max-width:1000px)
+{
+  .phone{
+    transform: rotate(0);
+    width:220px;
+    position: static;
+    right:50%;
+    top:50px
+
+  }
+
+
+.first{
+  text-align: center;}
+
+
+
+}
+
+
+
+
+/* --------------------------------------------------------------------------- */
+.second{
+
+  background-color: #fffdf7;
+  margin: 0;
+  padding: 5%;
+  ;
+  position: relative;
+  z-index: 1;
+
+}
+
+h3{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f
+}
+.fa-check-circle,.fa-dollar-sign,.fa-heart{ font-size:75px;
+  /* margin-left: 25%; */
+  color:#ff9980;
+  margin: 10%;
+}
+
+i:hover{
+  color: #ff6666;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+
+#testimonials{
+  background-color: #ff5c33;
+  ;
+  color: white;
+}
+
+.carousel-item{
+    padding: 10% 20%;
+}
+
+h2{
+font-weight:bold
+}
+
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+p{
+  margin: 0;
+  padding: 20px;
+}
+
+.carousel-item {
+height: 400px;
+overflow: hidden;
+width: 100%;
+}
+
+/* ---------------------------------------------------------------- */
+
+#press{
+  background-color:#ff5c33;
+ ;
+ padding-bottom: 7%
+}
+
+.pressimg{
+  width: 15%;
+  margin: 10px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+#plans{ ;
+padding: 10%;
+  background-color: #fffdf7;
+}
+
+
+.buynow{ padding: 10%;
+  background-color: #ff414d;
+  ;
+}
+
+
+#footer{ ;
+  background-color: #fffdf7;
+}
+
+.fa-twitter,.fa-youtube,.fa-linkedin-in,.fa-instagram{
+  margin: 10px;
+  margin-top: 30px
+
+}
